@@ -214,14 +214,6 @@ html {
 	   margin-bottom: 5%; /* to match column gap */
 	}
 
-	@media (max-width: 1200px) {
-	   #gallery {
-		-moz-column-count:    4;
-		-webkit-column-count: 4;
-		column-count:         4;
-	   }
-	}
-
 	@media (max-width: 800px) {
 	   #gallery {
 		-moz-column-count:    2;
