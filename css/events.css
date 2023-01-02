@@ -1,0 +1,239 @@
+html {
+/*-- ---------------------------- Removing Flashes of Unstyled Content ---------------------- -- */
+	visibility: visible !important;
+	
+	font-family: cFont, DejaVu Sans, Segoe UI, Helvetica;
+	
+	max-width: 100%;
+}
+
+* { margin: 0; box-sizing: border-box; }
+
+@media only screen and (max-width: 1200px) { 
+
+/* DropDown Content */
+	
+	div.dropdown .material-icons {
+		font-size: 220%;
+	}
+	
+/* Dropdown Button */
+	#dropbtn {
+	  background-color: transparent;
+	  color: black;
+	  margin-left: 20%;
+	  font-size: 16px;
+	  border: none;
+	  cursor: pointer;
+	}
+	
+	.dropbtn:hover, .dropbtn:focus {
+	  background-color: black;
+	}
+	
+/* The container <div> - needed to position the dropdown content */
+	.dropdown {
+	  float: left;
+	}
+	
+/* Dropdown Content (Hidden by Default) */
+	.dropdown-content {
+	  display: none;
+	  position: absolute;
+	  background-color: white;
+	  width: 100%;
+	  height: auto;
+	  left: 0;
+	  overflow: auto;
+	  z-index: 1;
+	}
+	
+/* Links inside the dropdown */
+	.dropdown-content a {
+	  color: black;
+	  padding: 15px 16px;
+	  text-decoration: none;
+	  display: block;
+	}
+
+
+	.dropdown a:hover {
+		background-color: black;
+		color: white;
+	}
+
+	.show {display: block;}
+	
+	/* .closeDropDown {
+		float: right;
+		font-size: 250%;
+	} */
+	
+/* Headers */
+
+	div.headerWeb {
+		display: none;
+	}
+
+	div.headerPhone {
+		display: block;
+		width: auto;
+		height: auto;
+		background-color: transparent;
+		text-align: center;
+		padding-top: 25px;
+		padding-bottom: 70px;
+	}
+	
+	div.headerPhone #collectHeader {
+	  display: block;
+	  margin-left: auto;
+	  margin-right: 5%;
+	  margin-top: auto;
+	  font-size: 190%;
+	  font-family: cFontBoldNoI;
+	  color: black;
+	  text-align: right;		
+	}
+	
+	div.headerPhone	#collectContactsHeader {
+	  display: block;
+	  margin-left: auto;
+	  margin-right: 5%;
+	  margin-top: auto;
+	  font-size: 110%;
+	  font-family: andaLemo;
+	  color: black;
+	  text-align: right;
+	}
+	
+/* Body Phone Composition */
+
+	div.body #eventsCollect {
+	  font-size: 250%;
+	}
+	
+	div.body .eventsText {
+		font-size: 75%;
+	}
+}
+
+/* Header Phone Composition */
+
+	.headerPhone {
+		display: none;
+	}
+
+/* Header Web Composition */
+
+	.headerWeb {
+		display: block;
+		width: auto;
+		height: auto;
+		background-color: transparent;
+		text-align: center;
+		padding-top: 25px;
+		padding-bottom: 80px;
+	}
+	
+	.menuWeb a {
+		font-family: andaLemo;
+		text-decoration: none;
+		color: black;
+		font-size: 100%;
+		margin: 2%;
+	}
+	
+	.menuWeb a:hover {
+		background-color: black;
+		text-decoration: none; 
+		padding: -3px -3px;
+		color: white;
+	}
+	
+/* Right Side Page Composition */
+.body {
+	width: 100%;
+	height: auto;
+	background-color: transparent;
+}
+
+/* EVENTS TITLE */
+	#eventsCollect {
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	  font-size: 350%;
+	  font-family: cFontBold;
+	  margin-left: 8%;
+	  color: black;
+	  text-align: left;
+	}
+	
+/* Events Wrapper */
+	.eventsImgs {
+		width: 90%;
+		display: flex;
+		margin-bottom: 1%;
+		margin-top: 1.5%;
+		margin-left: 8%;
+		margin-right: 8%;
+		font-family: andaLemo;
+	}
+	
+	.Tickets {
+		color: black;
+		text-decoration: none; 
+		font-size: 120%;
+		font-family: andaLemo;
+	}
+	
+	a.Tickets:hover {
+		background-color: black;
+		text-decoration: none; 
+		padding: 0px 0px;
+		color: white;
+	}
+	
+	#gallery {
+	   line-height: 100%;
+	   -webkit-column-count: 4; /* split it into 5 columns */
+	   -webkit-column-gap: 5px; /* give it a 5px gap between columns */
+	   -moz-column-count: 4;
+	   -moz-column-gap: 5px;
+	   column-count: 4;
+	   column-gap: 5px;
+	   margin-top: 1.5%;
+	   margin-left: 8%;
+	   margin-right: 8%;
+	}
+
+	#gallery img {
+	   width: 100% !important;
+	   height: auto !important;
+	   margin-bottom: 5%; /* to match column gap */
+	}
+
+	@media (max-width: 1200px) {
+	   #gallery {
+		-moz-column-count:    4;
+		-webkit-column-count: 4;
+		column-count:         4;
+	   }
+	}
+
+	@media (max-width: 800px) {
+	   #gallery {
+		-moz-column-count:    2;
+		-webkit-column-count: 2;
+		column-count:         2;
+	   }
+	}
+
+	@media (max-width: 400px) {
+	   #gallery {
+		-moz-column-count:    1;
+		-webkit-column-count: 1;
+		column-count:         1;
+	   }
+	}
