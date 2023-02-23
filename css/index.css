@@ -187,12 +187,12 @@ html {
 		width: 100%;
 		margin-bottom: 0px;
 		text-align: center;
-		background-color: white;
+		background-color: #ff6699;
 	}
 	
 	@media only screen and (max-width: 500px) { 
 		div.body .eventsPage {
-			background-color: white;
+			background-color: #ff6699;
 		}
 	}
 	
