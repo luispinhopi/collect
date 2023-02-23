@@ -1,0 +1,257 @@
+html {
+/*-- ---------------------------- Removing Flashes of Unstyled Content ---------------------- -- */
+	visibility: visible !important;
+	
+	font-family: cFont, DejaVu Sans, Segoe UI, Helvetica;
+	
+    max-width: 100%;
+}
+
+* { margin: 0; }
+
+@media only screen and (max-width: 1200px) { 
+
+/* DropDown Content */
+	
+	div.dropdown .material-icons {
+		font-size: 220%;
+	}
+	
+/* Dropdown Button */
+	#dropbtn {
+	  background-color: transparent;
+	  color: black;
+	  margin-left: 20%;
+	  font-size: 16px;
+	  border: none;
+	  cursor: pointer;
+	}
+	
+	.dropbtn:hover, .dropbtn:focus {
+	  background-color: black;
+	}
+	
+/* The container <div> - needed to position the dropdown content */
+	.dropdown {
+	  float: left;
+	}
+	
+/* Dropdown Content (Hidden by Default) */
+	.dropdown-content {
+	  display: none;
+	  position: fixed;
+	  background-color: white;
+	  min-width: 100%;
+	  height: 100vh;
+	  overflow: auto;
+	  z-index: 1;
+	  top: 0;
+	  left: 0;
+	}
+	
+/* Links inside the dropdown */
+	.dropdown-content a {
+	  color: black;
+	  padding: 15px 16px;
+	  text-decoration: none;
+	  display: block;
+	}
+
+
+	.dropdown a:hover {
+		background-color: black;
+		color: white;
+	}
+
+	.show {display: block;}
+	
+	.closeDropDown {
+		float: right;
+		font-size: 250%;
+	}
+	
+/* Header Phone*/
+
+	div.headerWeb {
+		display: none;
+	}
+
+	div.headerPhone {
+		display: block;
+		width: auto;
+		height: auto;
+		background-color: transparent;
+		text-align: center;
+		padding-top: 25px;
+		padding-bottom: 70px;
+	}
+	
+/* Body Phone Composition */
+
+	div.body #filmsCollect {
+	  font-size: 250%;
+	}
+	
+	div.body .filmsText {
+		font-size: 75%;
+	}
+	
+	div.body .videoPlayerWrapper {
+	  width: 60%;
+	  margin-top: 4%;
+	}
+
+	div.body .videoPlayer {
+		width: 100%;
+		height: 200px;
+		margin-bottom: 1.5%;
+	}
+	
+	div.body .videoPlayer2 {
+		width: 100%;
+		height: 200px;
+	}
+	
+	div.body #giraVidas {
+		font-size: 250%;
+		margin-top: 4%;
+	}
+	
+	div.body .giraVidasText {
+		font-size: 75%;
+		margin-top: 1.5%;
+	}
+}
+
+/* Header Web Composition */
+
+	.headerPhone {
+		display: none;
+	}
+
+/* Header Web Composition */
+
+	.headerWeb {
+		display: block;
+		width: auto;
+		height: auto;
+		background-color: transparent;
+		text-align: center;
+		padding-top: 25px;
+		padding-bottom: 80px;
+	}
+	
+	.menuWeb a {
+		font-family: andaLemo;
+		text-decoration: none;
+		color: black;
+		font-size: 100%;
+		margin: 2%;
+	}
+	
+	.menuWeb a:hover {
+		background-color: black;
+		text-decoration: none; 
+		padding: -3px -3px;
+		color: white;
+	}
+	
+/* Right Side Page Composition */
+.body {
+	width: 100%;
+	height: auto;
+	background-color: transparent;
+}
+
+/* FILMS TITLE */
+	#filmsCollect {
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	  font-size: 350%;
+	  font-family: cFontBold;
+	  margin-left: 8%;
+	  color: black;
+	}
+	
+/* FILMS TEXT */
+	.filmsText {
+		font-size: 95%;
+		font-family: andaLemo;
+		text-align: left;
+		margin-top: 1%;
+		padding-left: 8%;
+		padding-right: 8%;
+		word-spacing: -2px;
+		line-height: 1.8;
+		text-align: justify;
+		text-justify: distribute;
+	}
+	
+	.videoPlayerWrapper {
+	  display: block;
+	  margin-left: 8%;
+	  margin-right: auto;
+	  color: white;
+	  width: 92%;
+	  margin-top: 2%;
+	}
+	
+	@media only screen and (max-width: 500px) { 
+		div.body .videoPlayerWrapper {
+		  width: 84%;
+		  display: block;
+		  margin-left: auto;
+		  margin-right: auto;
+		}
+	} 
+
+	.videoPlayer {
+		width: 45%;
+		height: 45%;
+		background-color: black;
+		border-style: none;
+		margin-right: 1%;
+	}
+	
+	.ACLUB {
+		color: black; 
+		float: left; 
+		font-family: andaLemo;
+		font-size: 95%;
+	}
+
+	.videoPlayer2 {
+		width: 45%;
+		height: 50%;
+		background-color: black;
+		border-style: none;
+		margin-right: 1%;
+	}
+	
+/* Gira Vidas TITLE */
+	#giraVidas {
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	  font-size: 350%;
+	  font-family: cFontBold;
+	  margin-left: 8%;
+	  margin-top: 2%;
+	  color: black;
+	}
+	
+/* Gira Vidas TEXT */
+	.giraVidasText {
+		font-size: 95%;
+		font-family: andaLemo;
+		text-align: left;
+		margin-top: 1%;
+		padding-left: 8%;
+		padding-right: 8%;
+		word-spacing: -1px;
+		line-height: 1.8;
+		text-align: justify;
+		text-justify: inter-word;
+	}
+	

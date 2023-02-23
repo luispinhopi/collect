@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+
+<html>
+
+<!-- ---------------------------- Removing Flashes of Unstyled Content ---------------------- -->
+	<style>
+	  html {
+		visibility: hidden;
+	  }
+	  
+	  @font-face { font-family: cFont; src: url('./fonts/NHaasGroteskTXPro-65Md.ttf'); } 
+	  @font-face { font-family: cFontBold; src: url('./fonts/NeueHaasDisplayBoldItalic.ttf'); } 
+	  @font-face { font-family: andaLemo; src: url('./fonts/andalemono.ttf'); } 
+	</style>
+	
+<!------------------------------------------------------------------ Head ------------------------------------------------>
+	<head>
+		<script data-ad-client="ca-pub-6690790102126249" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<link href="./css/foodbar.css" rel="stylesheet" type="text/css"/>
+		<meta charset="utf-8">
+	</head>
+
+<!-- Header Web-->
+
+<div class="headerWeb"> 
+
+<!-- Menu -->
+	<div class="menuWeb">
+				<a href="index.html">home</a>
+				<a href="about.html">about</a>
+				<a href="foodbar.html">food/bar</a>
+				<a href="radio.html">radio</a>
+				<a href="recordStore.html">record store</a>
+				<a href="recordLabel.html">labels</a>
+				<a href="films.html">films</a>
+				<a href="events.html">events</a>
+				<!-- <a href="merch.html">shop</a> -->
+				<a href="gallery.html">gallery</a>
+				<a href="contacts.html">contact</a>
+	</div>
+
+</div>
+
+<!-- Header Phone -->
+<div class="headerPhone"> 
+
+<!-- Drop Down Menu -->
+	<div class="dropdown" id="dropdown">
+		<button onclick="dropDownMenu()" id="dropbtn"> <span class="material-icons"> menu </span> </button>
+		  <div id="myDropdown" class="dropdown-content">
+		    <a href="javascript:void(0)" onclick="closeNav()"> <p class="closeDropDown">&times;</p> </a>
+			</br>
+			</br>
+				<a href="index.html">home</a>
+				<a href="about.html">about</a>
+				<a href="foodbar.html">food/bar</a>
+				<a href="radio.html">radio</a>
+				<a href="recordStore.html">record store</a>
+				<a href="recordLabel.html">labels</a>
+				<a href="films.html">films</a>
+				<a href="events.html">events</a>
+				<!-- <a href="merch.html">shop</a> -->
+				<a href="gallery.html">gallery</a>
+				<a href="contacts.html">contact</a>
+		  </div>
+
+	</div>
+
+</div>
+
+<!------------------------------------------------------------------ Body ------------------------------------------------>
+<div class="body">
+	
+	<div id="foodbarCollect"> food/bar </div>
+	
+		<div class="foodbarText"> 
+			A carefully chosen and selected burger for all who enjoy a 100% national meat burger from the Azores, 
+			products always fresh with maximum quality, in a cool and relaxed environment where you will feel at home.
+			An international selection of premium liquors align with a custom cocktail range & 
+			a Mexican-inspired ‘Mezcalaria’ to compose one of the most diverse and curated bar offerings in Lisbon.   
+		</div>
+		
+<!------------------------------------------------------------------ Food ------------------------------------------------>
+
+<!-- Para adicionar imagens ao "GIF" da FOOD copiar a <img> e mudar o nome da imagem e se necessario o .jpeg -->
+		<div class="foodbarWrapper">
+			
+			<div class="foodWrapper"> 	
+				<a class="foodBtn" id="foodBtn"> MENU </a>
+				<br>
+				<img id="foodBtn" class="foodImg" src="./images/foodBarSicodelico/foodChips1.jpeg"/>
+				<img id="foodBtn" class="foodImg" src="./images/foodBarSicodelico/foodChips2.jpeg"/>
+				<img id="foodBtn" class="foodImg" src="./images/foodBarSicodelico/foodChips3.jpeg"/>
+				<img id="foodBtn" class="foodImg" src="./images/foodBarSicodelico/foodChips4.jpeg"/>
+				<img id="foodBtn" class="foodImg" src="./images/foodBarSicodelico/foodChips5.jpeg"/>
+				<img id="foodBtn" class="foodImg" src="./images/foodBarSicodelico/foodChips6.jpeg"/>
+				<!-- Food Modal -->
+				<div id="foodModal" class="modal">
+
+<!-- Para mudar imagens do MENU copiar a <img> e mudar o nome da imagem e se necessario o .jpeg -->
+
+				  <!-- Modal content -->
+				  <div class="modal-content">
+					<span class="closeFood">&times;</span>
+						<img class="foodMenu" src="./images/foodBarSicodelico/food.jpeg">
+						<img class="barMenu" src="./images/foodBarSicodelico/bar.jpeg">
+						<img class="barMenu" src="./images/foodBarSicodelico/cocktails.jpeg">
+						<img class="barMenu" src="./images/foodBarSicodelico/wines.jpeg">	
+				  </div>
+				</div>
+			</div>
+<!------------------------------------------------------------------ Bar ------------------------------------------------>
+
+<!-- Para adicionar imagens ao "GIF" do BAR copiar a <img> e mudar o nome da imagem e se necessario o .jpeg -->
+			<div class="barWrapper"> 
+				<!-- <a class="barBtn" id="barBtn"> MENU </a> -->
+				<br>
+				<img id="barBtn" class="barImg" src="./images/foodBarSicodelico/bar1.jpeg">
+				<img id="barBtn" class="barImg" src="./images/foodBarSicodelico/bar2.jpeg">
+				<img id="barBtn" class="barImg" src="./images/foodBarSicodelico/bar3.jpeg">
+				<img id="barBtn" class="barImg" src="./images/foodBarSicodelico/bar4.jpeg">
+				<img id="barBtn" class="barImg" src="./images/foodBarSicodelico/bar5.jpeg">
+				<img id="barBtn" class="barImg" src="./images/foodBarSicodelico/bar6.jpeg">
+				<img id="barBtn" class="barImg" src="./images/foodBarSicodelico/bar7.jpeg">
+				<img id="barBtn" class="barImg" src="./images/foodBarSicodelico/bar8.jpeg">
+			</div>
+				
+		</div>
+		
+<!------------------------------------------------------------------ Sicodelico ------------------------------------------------>
+
+<!-- Para adicionar imagens ao "GIF" do SICODELICO copiar a <img> e mudar o nome da imagem e se necessario o .jpeg -->
+			<p id="sicodelicoCollect"> el sicodelico </p>
+			
+			<p class="sicodelicoText"> At the core of our bar, stands an eight-foot-tall ‘Mezcalaria’. 
+			A Mexican themed Mezcal and Tequilla array, almost endless to the eye. Still expanding, El Sicodelico 
+			is one of the biggest Mezcal collections in Portugal. </p>
+			
+			<div class="sicodelicoWrapper"> 
+				<a class="sicodelicoBtn" id="sicodelicoBtn"> MENU </a>
+				</br>
+				<img id="sicodelicoBtn" class="sicodelicoImg" src="./images/foodBarSicodelico/Sicodelico2.png">
+				<img id="sicodelicoBtn" class="sicodelicoImg" src="./images/foodBarSicodelico/Sicodelico3.png">
+				<!-- Bar Modal -->
+				<div id="sicodelicoModal" class="modal">
+
+<!-- Para mudar imagens do MENU SICODELICO copiar a <img> e mudar o nome da imagem e se necessario o .jpeg -->
+
+				  <!-- Modal content -->
+				  <div class="modal-content">
+					<span class="closeSicodelico">&times;</span>
+						<img class="sicodelicoMenu" src="./images/foodBarSicodelico/sicodelico.jpeg">
+						<img class="sicodelicoMenu" src="./images/foodBarSicodelico/sicodelico2.jpeg">
+				  </div>
+				</div>
+			</div>
+				
+		</div>
+	
+	<script type="text/javascript" src="./js/foodbar.js"></script>
+
+</html>

@@ -1,0 +1,455 @@
+html {
+/*-- ---------------------------- Removing Flashes of Unstyled Content ---------------------- -- */
+	visibility: visible !important;
+	
+	font-family: cFont, DejaVu Sans, Segoe UI, Helvetica;
+	
+    max-width: 100%;
+}
+
+* { margin: 0;
+	padding: 0; 
+  }
+  
+/* ----------------------------------------------------- Phone Touches -------------------------------------------  */
+
+@media only screen and (max-width: 1200px) { 
+
+/* DropDown Content */
+	
+	div.dropdown .material-icons {
+		font-size: 220%;
+	}
+	
+/* Dropdown Button */
+	#dropbtn {
+	  background-color: transparent;
+	  color: black;
+	  margin-left: 20%;
+	  font-size: 16px;
+	  border: none;
+	  cursor: pointer;
+	}
+	
+	.dropbtn:hover, .dropbtn:focus {
+	  background-color: black;
+	}
+	
+/* The container <div> - needed to position the dropdown content */
+	.dropdown {
+	  float: left;
+	}
+	
+/* Dropdown Content (Hidden by Default) */
+	.dropdown-content {
+	  display: none;
+	  position: fixed;
+	  background-color: white;
+	  min-width: 100%;
+	  height: 100vh;
+	  overflow: auto;
+	  z-index: 1;
+	  top: 0;
+	  left: 0;
+	}
+	
+/* Links inside the dropdown */
+	.dropdown-content a {
+	  color: black;
+	  padding: 15px 16px;
+	  text-decoration: none;
+	  display: block;
+	}
+
+
+	.dropdown a:hover {
+		background-color: black;
+		color: white;
+	}
+
+	.show {display: block;}
+	
+	.closeDropDown {
+		float: right;
+		font-size: 250%;
+	}
+	
+/* ----------------------------------------------------- Header Phone -------------------------------------------  */
+
+	div.headerWeb {
+		display: none;
+	}
+
+	div.headerPhone {
+		display: block;
+		width: auto;
+		height: auto;
+		background-color: transparent;
+		text-align: center;
+		padding-top: 25px;
+		padding-bottom: 70px;
+	}
+	
+	div.headerPhone #collectHeader {
+	  display: block;
+	  margin-left: auto;
+	  margin-right: 5%;
+	  margin-top: auto;
+	  font-size: 190%;
+	  font-family: cFontBoldNoI;
+	  color: black;
+	  text-align: right;		
+	}
+	
+	div.headerPhone	#collectContactsHeader {
+	  display: block;
+	  margin-left: auto;
+	  margin-right: 5%;
+	  margin-top: auto;
+	  font-size: 110%;
+	  font-family: andaLemo;
+	  color: black;
+	  text-align: right;
+	}
+	
+/* ----------------------------------------------------- Body Phone -------------------------------------------  */
+	
+	div.body .foodbarText {
+		font-size: 75%;
+		margin-bottom: 5%;
+	}
+	
+	div.body .foodWrapper {
+		margin-bottom: 5%;
+	}
+	
+	div.body #foodbarCollect {
+	  font-size: 220%;
+	}
+	
+	div.body .foodbarImg1 {
+	  width: 60%;
+	}
+	
+    div.body .foodbarImg2 {
+	  width: 60%;
+	}
+	
+	div.body .sicodelicoText {
+		font-size: 75%;
+		margin-bottom: 5%;
+	}
+	
+	div.body #sicodelicoCollect {
+		font-size: 220%;
+	}
+	
+	div.body .modal-content {
+	  background-color: transparent;
+	  margin: 1% auto; /* 15% from the top and centered */
+	  padding: auto;
+	  border: none;
+	  width: 75%; /* Could be more or less, depending on screen size */
+	}
+	
+	div.body .foodBtn {
+		font-size: 95%;
+	}
+	
+	div.body .barBtn {
+		font-size: 95%;
+	}
+	
+	div.body .sicodelicoBtn {
+		font-size: 95%;
+	}
+	
+}
+/* ----------------------------------------------------- Start of WEB -------------------------------------------  */
+
+/* ----------------------------------------------------- Header WEB -------------------------------------------  */
+	.headerPhone {
+		display: none;
+	}
+
+/* Header Web Composition */
+
+	.headerWeb {
+		display: block;
+		width: auto;
+		height: auto;
+		background-color: transparent;
+		text-align: center;
+		padding-top: 25px;
+		padding-bottom: 80px;
+	}
+	
+	.menuWeb a {
+		font-family: andaLemo;
+		text-decoration: none;
+		color: black;
+		font-size: 100%;
+		margin: 2%;
+	}
+	
+	.menuWeb a:hover {
+		background-color: black;
+		text-decoration: none; 
+		padding: -3px -3px;
+		color: white;
+	}
+	
+/* ---------------------------------------------------- Body -------------------------------------------- */
+.body {
+	width: 100%;
+	height: auto;
+	background-color: transparent;
+}
+
+/* The Modal (background) */
+	.modal {
+	  display: none; /* Hidden by default */
+	  position: fixed; /* Stay in place */
+	  z-index: 1; /* Sit on top */
+	  left: 0;
+	  top: 0;
+	  width: 100%; /* Full width */
+	  height: 100%; /* Full height */
+	  overflow: auto; /* Enable scroll if needed */
+	  background-color: rgb(0,0,0); /* Fallback color */
+	  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+	}
+
+	/* Modal Content/Box */
+	.modal-content {
+	  background-color: transparent;
+	  margin: 1% auto; /* 15% from the top and centered */
+	  padding: auto;
+	  border: none;
+	  width: 50%; /* Could be more or less, depending on screen size */
+	}
+
+	/* The Close Button */
+	.closeFood {
+	  color: black;
+	  float: right;
+	  font-size: 50px;
+	  font-weight: bold;
+	  padding: 1%;
+	}
+	
+ /*	.closeBar {
+	  color: black;
+	  float: right;
+	  font-size: 50px;
+	  font-weight: bold;
+	  padding: 1%;
+	}  */
+	
+	.closeSicodelico {
+	  color: black;
+	  float: right;
+	  font-size: 50px;
+	  font-weight: bold;
+	  padding: 1%;	
+	}
+
+	.close:hover,
+	.close:focus {
+	  color: black;
+	  text-decoration: none;
+	  cursor: pointer;
+	} 
+
+/* Food AND Bar Title */
+	#foodbarCollect {
+	  display: inline;
+	  margin-left: auto;
+	  margin-right: auto;
+	  font-size: 350%;
+	  font-family: cFontBold;
+	  margin-left: 8%;
+	  text-align: left;
+	  color: black;
+	}
+	
+/* Food AND Bar Full Wrapper */
+	.foodbarWrapper {
+		width: 100%;
+		display: flex;
+		margin-bottom: 1%;
+	}
+
+/* --------------------------------------------------- Food Things ------------------------------------------------ */
+	.foodbarText {
+		font-size: 95%;
+		font-family: andaLemo;
+		text-align: left;
+		margin-top: 1%;
+		padding-left: 8%;
+		padding-right: 8%;
+		word-spacing: -2px;
+		line-height: 1.8;
+		text-align: justify;
+		text-justify: distribute;
+	}
+	
+	.foodWrapper {
+		 background: transparent;
+		 position: relative;
+		 margin-left: 8%;
+		 margin-right: auto;
+		 margin-top: 1%;
+		 height: auto;
+		 width: 42%;
+		 border-right: 10px solid transparent;
+	}
+
+/* Food Image */
+	.foodImg {
+	  height: auto;
+	  width: 100%;
+	  margin-top: 3%;
+	}
+	
+/*Food Button */
+
+	.foodBtn {
+		position:absolute;
+		top:0;
+		left:0;
+		font-family: andaLemo;
+		text-decoration: none;
+		color: black;
+		font-size: 120%;
+		text-decoration: underline;
+	}
+	
+	
+	a.foodBtn:hover {
+		background-color: black;
+		text-decoration: none; 
+		padding: 0px 0px;
+		color: white;
+	}	
+
+/*-------------------------------------------------- Bar Things --------------------------------------------- */
+
+	.barWrapper {
+		 background: transparent;
+		 position: relative;
+		 margin-left: auto;
+		 margin-right: 8%;
+		 margin-top: 1%;
+		 height: auto;
+		 width: 42%;
+		 border-left: 10px solid transparent;
+	}
+	
+    .barImg {
+	  height: auto;
+	  width: 100%;
+	  margin-top: 3%;
+	}
+	
+/* Bar Button */
+
+	.barBtn {
+		position:absolute;
+		top:0;
+		left:0;
+		font-family: andaLemo;
+		text-decoration: none;
+		color: black;
+		font-size: 120%;
+		text-decoration: underline;
+	}
+	
+	
+	a.barBtn:hover {
+		background-color: black;
+		text-decoration: none; 
+		padding: 0px 0px;
+		color: white;
+	}
+
+/* Modal Content Image */
+	.barMenu {
+		width: 100%;
+		margin-top: 1%;
+	}
+	
+/* Modal Content Image */
+	.foodMenu {
+		width: 100%;
+		margin-top: 1%;
+	}
+	
+/* ----------------------------------------------- El Sicodelico ------------------------------------- */
+	
+	#sicodelicoCollect {
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	  font-size: 350%;
+	  font-family: cFontBold;
+	  margin-top: 4%;
+	  margin-left: 8%;
+	  color: black;
+	}
+	
+	.sicodelicoText {
+		font-size: 95%;
+		font-family: andaLemo;
+		text-align: left;
+		margin-top: 1%;
+		padding-left: 8%;
+		padding-right: 8%;
+		word-spacing: -1px;
+		line-height: 1.8;
+		text-align: justify;
+		text-justify: distribute;	
+	}
+	
+	.sicodelicoWrapper {
+		 background: transparent;
+		 position: relative;
+		 margin-right: 8%;
+		 margin-left: 8%;
+		 margin-top: 1%;
+		 height: auto;
+		 width: auto;
+	}
+	
+    .sicodelicoImg {
+	  height: auto;
+	  width: 100%;
+	  margin-top: 2%;
+	}
+	
+/* sicodelico Button */
+
+	.sicodelicoBtn {
+		position:absolute;
+		top:0;
+		left: 0%;
+		font-family: andaLemo;
+		text-decoration: none;
+		color: black;
+		font-size: 120%;
+		text-decoration: underline;
+	}
+	
+	
+	a.sicodelicoBtn:hover {
+		background-color: black;
+		text-decoration: none; 
+		padding: 0px 0px;
+		color: white;
+	}
+
+/* Modal Content Image */
+	.sicodelicoMenu {
+		width: 100%;
+		margin-top: 1%;
+	}

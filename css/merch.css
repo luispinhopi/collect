@@ -1,0 +1,264 @@
+html {
+/*-- ---------------------------- Removing Flashes of Unstyled Content ---------------------- -- */
+	visibility: visible !important;
+	
+	font-family: andaLemo, cFont, Lucida Console, DejaVu Sans, Segoe UI, Helvetica;
+	
+    max-width: 100%;
+}
+
+* { margin: 0; }
+
+@media only screen and (max-width: 1200px) { 
+
+/* DropDown Content */
+	
+	div.dropdown .material-icons {
+		font-size: 220%;
+	}
+	
+/* Dropdown Button */
+	#dropbtn {
+	  background-color: transparent;
+	  color: black;
+	  margin-left: 20%;
+	  font-size: 16px;
+	  border: none;
+	  cursor: pointer;
+	}
+	
+	.dropbtn:hover, .dropbtn:focus {
+	  background-color: black;
+	}
+	
+/* The container <div> - needed to position the dropdown content */
+	.dropdown {
+	  float: left;
+	}
+	
+/* Dropdown Content (Hidden by Default) */
+	.dropdown-content {
+	  display: none;
+	  position: absolute;
+	  background-color: white;
+	  width: 100%;
+	  height: 100vh;
+	  left: 0;
+	  overflow: auto;
+	  z-index: 2;
+	}
+	
+/* Links inside the dropdown */
+	.dropdown-content a {
+	  color: black;
+	  padding: 15px 16px;
+	  text-decoration: none;
+	  display: block;
+	}
+
+
+	.dropdown a:hover {
+		background-color: black;
+		color: white;
+	}
+
+	.show {display: block;}
+	
+	/* .closeDropDown {
+		float: right;
+		font-size: 250%;
+	} */
+	
+/* Header Phone*/
+
+	div.headerWeb {
+		display: none;
+	}
+
+	div.headerPhone {
+		display: block;
+		width: auto;
+		height: auto;
+		background-color: transparent;
+		text-align: center;
+		padding-top: 25px;
+		padding-bottom: 70px;
+		font-family: cFont;
+	}
+	
+	div.headerPhone #collectHeader {
+	  display: block;
+	  margin-left: auto;
+	  margin-right: 5%;
+	  margin-top: auto;
+	  font-size: 190%;
+	  font-family: cFont;
+	  color: black;
+	  text-align: right;		
+	}
+	
+	div.headerPhone	#collectContactsHeader {
+	  display: block;
+	  margin-left: auto;
+	  margin-right: 5%;
+	  margin-top: auto;
+	  font-size: 110%;
+	  font-family: andaLemo;
+	  color: black;
+	  text-align: right;
+	}
+	
+/* Body Phone Composition */
+	
+	div.body #merchCollect {
+	  font-size: 250%;
+	}
+	
+	div.body .merchText {
+		font-size: 75%;	
+	}
+	
+	div.body #two { 
+	  margin-right: 0.5%;
+	}
+}
+
+/* Header Web Composition */
+
+	.headerPhone {
+		display: none;
+	}
+
+/* Header Web Composition */
+
+	.headerWeb {
+		display: block;
+		width: auto;
+		height: auto;
+		background-color: transparent;
+		text-align: center;
+		padding-top: 25px;
+		padding-bottom: 80px;
+	}
+	
+	.menuWeb a {
+		font-family: andaLemo;
+		text-decoration: none;
+		color: black;
+		font-size: 100%;
+		margin: 1.8%;
+	}
+	
+	.menuWeb a:hover {
+		background-color: black;
+		text-decoration: none; 
+		padding: -3px -3px;
+		color: white;
+	}
+	
+/* Body Composition */
+.body {
+	width: 100%;
+	height: auto;
+	background-color: transparent;
+}
+	
+/* Shopping Bag */
+	.ec-cart-widget {
+		text-align: left;
+	}
+	
+/* Header Estupid gone */	
+	.ec-header-h1 {
+		display: none;
+	}
+
+/* WRAPPER OF ALL SHOP */	
+	.wrapper { 
+	  border : none; 
+	  overflow:hidden;
+	}
+
+	.wrapper div {
+	   min-height: auto;
+	   padding: 1px;
+	}
+
+/* MENU OF THE SHOP AND THE SHOPPING BAG */
+	#one {
+	  background-color: transparent;
+	  float: left; 
+	  width: 140px;
+	  border-right: none;
+	  margin-left: 8%;
+	}
+
+/* ITEMS OF THE SHOP */
+	#two { 
+	  background-color: transparent;
+	  overflow: hidden;
+	  border: none;
+	  min-height:170px;
+	  margin-right: 8%;
+	}
+
+/* ITEMS AND MENU SPLITTING IN VERTICAL WAY */
+	@media screen and (max-width: 800px) {
+	   #one { 
+		float: none;
+		margin-right:0;
+		width:auto;
+		border:0;
+		border-bottom:none;    
+	  }
+	}
+
+/* SPACE BETWEN MENU ITEMS */
+	.space {
+		margin-top: 2%;
+	}
+	
+/* MENU ITEMS */
+	.tshirts {
+		font-family: andaLemo;
+		font-size: 95%;
+		text-decoration: none;
+		color: black;
+	}
+	
+	.sweatshirts {
+		font-family: andaLemo;
+		font-size: 95%;
+		text-decoration: none;
+		color: black;
+	}
+	
+	.product-details__sidebar {
+		font-size: 10px !important;
+		line-height: 5px !important;
+		padding: 1% !important;
+	}
+	
+	.product-details__sidebar h1 {
+		font-size: 17px !important;
+	}
+
+	.product-details-module details-product-option details-product-option--size details-product-option--Size {
+		font-size: 10px !important;
+	}
+	
+	.ec-breadcrumbs {
+		display: none !important;
+	}
+	
+	.ecwid div, .ecwid span, .ecwid a, .ecwid p { font-family: andaLemo !important; }
+
+	.ecwid h1, ecwid h2, ecwid h3, ecwid h4 { font-family: andaLemo !important; }
+	
+	.product-details__product-description {
+		font-size: 12px !important;
+		margin-right: 13% !important;
+		text-align: justify !important;
+		text-justify: inter-word !important;
+	}
+	

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html>
+
+<!-- ---------------------------- Removing Flashes of Unstyled Content ---------------------- -->
+	<style>
+	  html {
+		visibility: hidden;
+	  }
+	  
+	  @font-face { font-family: cFont; src: url('./fonts/NHaasGroteskTXPro-65Md.ttf'); } 
+	  @font-face { font-family: cFontBold; src: url('./fonts/NeueHaasDisplayBoldItalic.ttf'); } 
+	  @font-face { font-family: andaLemo; src: url('./fonts/andalemono.ttf'); } 
+	</style>
+	
+<!-- ---------------------------- Head ---------------------- -->
+	<head>
+		<script data-ad-client="ca-pub-6690790102126249" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<link href="./css/collectRecords.css" rel="stylesheet" type="text/css"/>
+		<meta charset="utf-8">
+	</head>
+
+<!-- Header Web-->
+
+<div class="headerWeb"> 
+
+<!-- Menu -->
+	<div class="menuWeb">
+				<a href="index.html">home</a>
+				<a href="about.html">about</a>
+				<a href="foodbar.html">food/bar</a>
+				<a href="radio.html">radio</a>
+				<a href="recordStore.html">record store</a>
+				<a href="recordLabel.html">labels</a>
+				<a href="films.html">films</a>
+				<a href="events.html">events</a>
+				<!-- <a href="merch.html">shop</a> -->
+				<a href="gallery.html">gallery</a>
+				<a href="contacts.html">contact</a>
+	</div>
+
+</div>
+
+<!-- Header Phone -->
+<div class="headerPhone"> 
+
+<!-- Drop Down Menu -->
+	<div class="dropdown" id="dropdown">
+		<button onclick="dropDownMenu()" id="dropbtn"> <span class="material-icons"> menu </span> </button>
+		  <div id="myDropdown" class="dropdown-content">
+		    <a href="javascript:void(0)" onclick="closeNav()"> <p class="closeDropDown">&times;</p> </a>
+			</br>
+			</br>
+				<a href="index.html">home</a>
+				<a href="about.html">about</a>
+				<a href="foodbar.html">food/bar</a>
+				<a href="radio.html">radio</a>
+				<a href="recordStore.html">record store</a>
+				<a href="recordLabel.html">labels</a>
+				<a href="films.html">films</a>
+				<a href="events.html">events</a>
+				<!-- <a href="merch.html">shop</a> -->
+				<a href="gallery.html">gallery</a>
+				<a href="contacts.html">contact</a>
+		  </div>
+
+	</div>
+
+</div>
+
+<!-- Body -->
+	<div class="body">
+
+<!-- COLLECT RECORDS TITLE -->
+			<p id="collectRecordsCollect"> collect records </p>
+			
+<!-- COLLECT RECORDS Text 
+			<p class="collectRecordsText"> Collect records was founded in 2022 and its focused on 
+			releasing old school stuff, reissues and future classics. </p> -->
+
+<!-- COLLECT RECORDS ALBUNS -->
+<!-- Imagem de baixo dos Albuns. Importante manter dimensões das antigas imagens. 
+Para adicionar copiar todo o "DIV" e mudar nome de imagem link para o album certo e o texto.  -->
+			<div class="collectRecordsAlbums">
+				<a href="https://www.discogs.com/release/24709289-Slope-From-A-Distance-EP" target="_blank"> 
+				<img src="./images/labels/collectRecords.jpg" class="collectRecords"></a>
+				<p class="content"> First ever release of Collect Records its a reissue of old tracks written 
+				and produced by SLOPE aka Daniel Paul & Hans Schaaf between 1999 and 2005. 4 rare Deep House, 
+				Future Jazz and Electro gems! Classic stuff! Collect Records is part of the well known COLLECT 
+				(Food - Radio - Records) project in Cais do Sodré - Lisboa. </p>
+			</div>
+	</div>
+	
+	<script type="text/javascript" src="./js/collectRecords.js"></script>
+
+</html>

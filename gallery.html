@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+<html>
+
+<!-- ---------------------------- Removing Flashes of Unstyled Content ---------------------- -->
+	<style>
+	  html {
+		visibility: hidden;
+	  }
+	  
+	  @font-face { font-family: cFont; src: url('./fonts/NHaasGroteskTXPro-65Md.ttf'); } 
+	  @font-face { font-family: cFontBold; src: url('./fonts/NeueHaasDisplayBoldItalic.ttf'); } 
+	  @font-face { font-family: andaLemo; src: url('./fonts/andalemono.ttf'); } 
+	</style>
+	
+<!-- ---------------------------- Head ---------------------- -->
+	<head>
+		<script data-ad-client="ca-pub-6690790102126249" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<link href="./css/gallery.css" rel="stylesheet" type="text/css"/>
+		<meta charset="utf-8">
+	</head>
+
+<!-- Header Web-->
+
+<div class="headerWeb"> 
+
+<!-- Menu -->
+	<div class="menuWeb">
+				<a href="index.html">home</a>
+				<a href="about.html">about</a>
+				<a href="foodbar.html">food/bar</a>
+				<a href="radio.html">radio</a>
+				<a href="recordStore.html">record store</a>
+				<a href="recordLabel.html">labels</a>
+				<a href="films.html">films</a>
+				<a href="events.html">events</a>
+				<!-- <a href="merch.html">shop</a> -->
+				<a href="gallery.html">gallery</a>
+				<a href="contacts.html">contact</a>
+	</div>
+
+</div>
+
+<!-- Header Phone -->
+<div class="headerPhone"> 
+
+<!-- Drop Down Menu -->
+	<div class="dropdown" id="dropdown">
+		<button onclick="dropDownMenu()" id="dropbtn"> <span class="material-icons"> menu </span> </button>
+		  <div id="myDropdown" class="dropdown-content">
+		    <a href="javascript:void(0)" onclick="closeNav()"> <p class="closeDropDown">&times;</p> </a>
+			</br>
+			</br>
+				<a href="index.html">home</a>
+				<a href="about.html">about</a>
+				<a href="foodbar.html">food/bar</a>
+				<a href="radio.html">radio</a>
+				<a href="recordStore.html">record store</a>
+				<a href="recordLabel.html">labels</a>
+				<a href="films.html">films</a>
+				<a href="events.html">events</a>
+				<!-- <a href="merch.html">shop</a> -->
+				<a href="gallery.html">gallery</a>
+				<a href="contacts.html">contact</a>
+		  </div>
+
+	</div>
+
+</div>
+
+<!-- Body -->
+	<div class="body">
+
+<!-- GALLERY TITLE -->
+			<p id="galleryCollect"> gallery </p>
+			
+<!-- GALLERY -->
+<!-- Para adicionar imagem copiar o <img> e colar no inicio a baixo do div com id gallery, 
+e mudar no src o nome da imagem e .jpg se for o caso -->
+		<div id="gallery">
+			<img class="collectImages" src="./images/gallery/collectGallery1.jpg" onclick="onClick(this);">
+			<img class="collectImages" src="./images/gallery/collectGallery2.jpeg" onclick="onClick(this);">
+			<img class="collectImages" src="./images/gallery/collectGallery3.jpeg" onclick="onClick(this);">
+			<img class="collectImages" src="./images/gallery/collectGallery4.jpeg" onclick="onClick(this);">
+			<img class="collectImages" src="./images/gallery/collectGallery5.jpg" onclick="onClick(this);">
+			<img class="collectImages" src="./images/gallery/collectGallery6.jpeg" onclick="onClick(this);">
+			<img class="collectImages" src="./images/gallery/collectGallery7.jpeg" onclick="onClick(this);">
+			<img class="collectImages" src="./images/gallery/collectGallery8.jpeg" onclick="onClick(this);">
+			<img class="collectImages" src="./images/gallery/collectGallery9.jpeg" onclick="onClick(this);">
+			<img class="collectImages" src="./images/gallery/collectGallery10.jpeg" onclick="onClick(this);">
+			<img class="collectImages" src="./images/gallery/collectGallery11.jpeg" onclick="onClick(this);">
+			<img class="collectImages" src="./images/gallery/collectGallery12.jpeg" onclick="onClick(this);">
+			<img class="collectImages" src="./images/gallery/collectGallery13.jpeg" onclick="onClick(this);">
+			<img class="collectImages" src="./images/gallery/collectGallery14.jpeg" onclick="onClick(this);">
+			<img class="collectImages" src="./images/gallery/collectGallery15.jpeg" onclick="onClick(this);">
+			<img class="collectImages" src="./images/gallery/collectGallery16.jpeg" onclick="onClick(this);">
+			<img class="collectImages" src="./images/gallery/collectGallery17.jpeg" onclick="onClick(this);">
+			<img class="collectImages" src="./images/gallery/collectGallery18.jpeg" onclick="onClick(this);">
+			<img class="collectImages" src="./images/gallery/collectGallery19.jpeg" onclick="onClick(this);">
+			<img class="collectImages" src="./images/gallery/collectGallery20.jpeg" onclick="onClick(this);">
+			<img class="collectImages" src="./images/gallery/collectGallery21.jpeg" onclick="onClick(this);">
+			<img class="collectImages" src="./images/gallery/collectGallery22.jpeg" onclick="onClick(this);">
+			<img class="collectImages" src="./images/gallery/collectGallery23.jpeg" onclick="onClick(this);">
+			<img class="collectImages" src="./images/gallery/collectGallery24.jpeg" onclick="onClick(this);">
+			<img class="collectImages" src="./images/gallery/collectGallery25.jpeg" onclick="onClick(this);">
+			<img class="collectImages" src="./images/gallery/collectGallery26.jpeg" onclick="onClick(this);">
+			<img class="collectImages" src="./images/gallery/collectGallery27.jpeg" onclick="onClick(this);">
+			<img class="collectImages" src="./images/gallery/collectGallery28.jpeg" onclick="onClick(this);">
+			<img class="collectImages" src="./images/gallery/collectGallery29.jpeg" onclick="onClick(this);">
+			<img class="collectImages" src="./images/gallery/collectGallery30.jpeg" onclick="onClick(this);">
+		</div>
+
+
+		<div id="modal01" class="modal" onclick="this.style.display='none'">
+		  <span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+		  <div class="modal-content">
+			<img id="img01" style="max-width:100%">
+		  </div>
+		</div>
+		
+	</div>
+	
+	<script type="text/javascript" src="./js/gallery.js"></script>
+
+</html>

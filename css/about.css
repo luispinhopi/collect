@@ -1,0 +1,226 @@
+html {
+/*-- ---------------------------- Removing Flashes of Unstyled Content ---------------------- -- */
+	visibility: visible !important;
+	
+	font-family: cFont, DejaVu Sans, Segoe UI, Helvetica;
+	
+	max-width: 100%;
+}
+
+* { margin: 0; }
+
+@media only screen and (max-width: 1200px) { 
+
+/* DropDown Content */
+	
+	div.dropdown .material-icons {
+		font-size: 220%;
+	}
+	
+/* Dropdown Button */
+	#dropbtn {
+	  background-color: transparent;
+	  color: black;
+	  margin-left: 20%;
+	  font-size: 16px;
+	  border: none;
+	  cursor: pointer;
+	}
+	
+	.dropbtn:hover, .dropbtn:focus {
+	  background-color: black;
+	}
+	
+/* The container <div> - needed to position the dropdown content */
+	.dropdown {
+	  float: left;
+	}
+	
+/* Dropdown Content (Hidden by Default) */
+	.dropdown-content {
+	  display: none;
+	  position: fixed;
+	  background-color: white;
+	  min-width: 100%;
+	  height: 100vh;
+	  overflow: auto;
+	  z-index: 1;
+	  top: 0;
+	  left: 0;
+	}
+	
+/* Links inside the dropdown */
+	.dropdown-content a {
+	  color: black;
+	  padding: 15px 16px;
+	  text-decoration: none;
+	  display: block;
+	}
+
+
+	.dropdown a:hover {
+		background-color: black;
+		color: white;
+	}
+
+	.show {display: block;}
+	
+	.closeDropDown {
+		float: right;
+		font-size: 250%;
+	}
+	
+/* Headers */
+
+	div.headerWeb {
+		display: none;
+	}
+
+	div.headerPhone {
+		display: block;
+		width: auto;
+		height: auto;
+		background-color: transparent;
+		text-align: center;
+		padding-top: 25px;
+		padding-bottom: 70px;
+	}
+	
+	div.headerPhone #collectHeader {
+	  display: block;
+	  margin-left: auto;
+	  margin-right: 5%;
+	  margin-top: auto;
+	  font-size: 190%;
+	  font-family: cFontBoldNoI;
+	  color: black;
+	  text-align: right;		
+	}
+	
+	div.headerPhone	#collectContactsHeader {
+	  display: block;
+	  margin-left: auto;
+	  margin-right: 5%;
+	  margin-top: auto;
+	  font-size: 110%;
+	  font-family: andaLemo;
+	  color: black;
+	  text-align: right;
+	}
+	
+/* Body Phone Composition */
+
+	div.body #aboutCollect {
+	  font-size: 250%;
+	  margin-bottom: 5%;
+	}
+	
+	div.body .aboutText {
+		font-size: 75%;
+		margin-bottom: 7%;
+	}
+	
+	div.body .aboutTitleText {
+		font-size: 100%;
+	}
+	
+	div.body .barraImg {
+		width: 100%;
+		height: 100px;
+		margin-left: 0%;
+	}
+}
+
+/* Header Phone Composition */
+
+	.headerPhone {
+		display: none;
+	}
+
+/* Header Web Composition */
+
+	.headerWeb {
+		display: block;
+		width: auto;
+		height: auto;
+		background-color: transparent;
+		text-align: center;
+		padding-top: 25px;
+		padding-bottom: 80px;
+	}
+	
+	.menuWeb a {
+		font-family: andaLemo;
+		text-decoration: none;
+		color: black;
+		font-size: 100%;
+		margin: 2%;
+	}
+	
+	.menuWeb a:hover {
+		background-color: black;
+		text-decoration: none; 
+		padding: -3px -3px;
+		color: white;
+	}
+	
+/* BODY Composition */
+.body {
+	width: 100%;
+	height: auto;
+	background-color: transparent;
+}
+
+/* ABOUT TITLE */
+	#aboutCollect {
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	  font-size: 350%;
+	  font-family: cFontBold;
+	  margin-left: 8%;
+	  color: black;
+	  text-align: left;
+	}
+
+/* ABOUT TEXT */
+	.aboutText {
+		font-size: 95%;
+		font-family: andaLemo;
+		text-align: left;
+		margin-top: 1%;
+		padding-left: 8%;
+		padding-right: 8%;
+		word-spacing: -1px;
+		line-height: 1.8;
+		text-align: justify;
+		text-justify: distribute;
+	}
+	
+/* ABOUT TEXT SECOND TITLE */
+	.aboutTitleText {
+		font-size: 200%;
+		font-family: andaLemo;
+		text-align: center;
+		margin-top: 5%;
+		padding-left: 5%;
+		padding-right: 2%;
+	}
+
+/* ABOUT FOOTER IMAGE */
+	.footerImg    {
+		width: 100%;
+		height: auto;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		bottom: 0;
+		text-align: center;
+		margin-top: 4%;
+	}
+	
+	.barraImg {
+		width: 85%;
+		height: 20%;
+		margin-left: 8%;
+	}
